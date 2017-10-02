@@ -10,8 +10,8 @@ const double PPU_SPEED = 5369318;
 int main()
 {
 	std::cout << "I'm an emulator" << std::endl;
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sf::CircleShape shape(100.f);
+	sf::RenderWindow window(sf::VideoMode(36, 36), "SFML works!");
+	sf::CircleShape shape(18.f);
 	shape.setFillColor(sf::Color::Green);
 
 	while (window.isOpen())
