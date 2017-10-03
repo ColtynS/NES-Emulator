@@ -1,3 +1,7 @@
 ﻿  Source.cpp
-  NesEm.vcxproj -> C:\Users\LBL-Student\Documents\GitHub\NES-Emulator\NesEm\Debug\NesEm.exe
-  NesEm.vcxproj -> C:\Users\LBL-Student\Documents\GitHub\NES-Emulator\NesEm\Debug\NesEm.pdb (Partial PDB)
+c:\users\tanner\desktop\c++ projects\nes\nes-emulator\nesem\nesem\cpu.h(109): error C3867: 'std::basic_ostream<char,std::char_traits<char>>::write': non-standard syntax; use '&' to create a pointer to member
+c:\users\tanner\desktop\c++ projects\nes\nes-emulator\nesem\nesem\cpu.h(109): error C2296: '>>': illegal, left operand has type 'std::basic_ostream<char,std::char_traits<char>> &(__thiscall std::basic_ostream<char,std::char_traits<char>>::* )(const _Elem *,std::streamsize)'
+          with
+          [
+              _Elem=char
+          ]
